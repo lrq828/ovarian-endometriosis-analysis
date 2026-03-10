@@ -15,18 +15,7 @@ Normalization and feature selection
 Harmony integration across samples
 Multiple resolution clustering
 3. Cell Type Annotation (Level 1)
-Identified 10 major cell types:
-
-Endometrial stroma cells
-Mesenchymal cells
-Smooth muscle cells
-T/NK cells
-Myeloid cells
-Endothelial cells
-Granulosa cells
-Mast cells
-B cells
-Epithelial cells
+Identified 10 major cell types: Endometrial stroma cells, Mesenchymal cells, Smooth muscle cells, T/NK cells, Myeloid cells, Endothelial cells, Granulosa cells, Mast cells, B cells, Epithelial cells.
 4. Differential Expression Analysis
 OEM vs Normal comparison for each cell type
 Identification of upregulated and downregulated genes
