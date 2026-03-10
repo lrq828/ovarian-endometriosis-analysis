@@ -11,11 +11,9 @@ Analysis Workflow
 Cell-level QC filtering (nFeature_RNA > 300, percent.mt < 25%)
 Doublet detection using DoubletFinder
 Normalization and feature selection
-Output: Filtered Seurat objects, QC metrics
 2. Batch Effect Correction
 Harmony integration across samples
 Multiple resolution clustering
-Output: Batch-corrected UMAP embeddings
 3. Cell Type Annotation (Level 1)
 Identified 10 major cell types:
 
@@ -32,7 +30,6 @@ Epithelial cells
 4. Differential Expression Analysis
 OEM vs Normal comparison for each cell type
 Identification of upregulated and downregulated genes
-Output: DEG tables with log2FC and adjusted p-values
 5. Cell Proportion Analysis
 Sample-level and individual-level cell composition
 Visualization with stacked bar plots and bubble plots
